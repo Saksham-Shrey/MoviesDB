@@ -17,7 +17,7 @@ MoviesDB is an iOS application built using SwiftUI that allows users to explore 
 
 
 
-https://github.com/Saksham-Shrey/MoviesDB/assets/110986726/8ca7a9e3-a39e-4d39-b5af-86388501ce6e
+https://github.com/Saksham-Shrey/MoviesDB/assets/110986726/4c885a74-e265-4272-ad72-1f3a9ad31bd7
 
 
 
