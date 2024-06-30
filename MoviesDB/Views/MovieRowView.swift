@@ -34,8 +34,10 @@ struct MovieRowView: View {
             }
             VStack(alignment: .leading) {
                 Text(movie.title)
-                Text(movie.language)
-                Text(movie.year)
+                Text("Language: \(movie.language)")
+                    .font(.caption)
+                Text("Year: \(movie.year)")
+                    .font(.caption)
             }
         }
     }

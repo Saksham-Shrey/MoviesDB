@@ -13,6 +13,7 @@ struct MovieDetailView: View {
     
     var body: some View {
         VStack {
+            ScrollView {
             if let url = URL(string: movie.poster) {
                 AsyncImage(url: url) { phase in
                     switch phase {
@@ -37,11 +38,23 @@ struct MovieDetailView: View {
                 .padding()
             Text(movie.plot)
                 .padding()
-            HStack {
+                
                 Text("Released: \(movie.released)")
+                    .padding()
                 Text("Genre: \(movie.genre)")
+                    .padding()
+                Text("Cast: \(movie.actors)")
+                    .padding()
+                Text("Crew - ")
+                    .bold()
+                Text("Director: \(movie.director)")
+                    .padding()
+                Text("Writer: \(movie.writer)")
+                    .padding()
+                Text("Producer: \(movie.production ?? "NA")")
+                    .padding()
+                
             }
-            .padding()
             Picker("Rating Source", selection: $selectedRatingSource) {
                 Text("IMDB").tag("IMDB")
                 Text("Rotten Tomatoes").tag("Rotten Tomatoes")
