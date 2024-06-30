@@ -26,7 +26,7 @@ https://github.com/Saksham-Shrey/MoviesDB/assets/110986726/8ca7a9e3-a39e-4d39-b5
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/MoviesDB.git
+git clone https://github.com/saksham-shrey/MoviesDB.git
 ```
 
 2. Open the project in Xcode:
